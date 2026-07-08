@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contacto — Joltech</title>
+<meta name="description" content="Hablemos de tu proyecto IT. Escríbenos y te contactaremos con una propuesta clara y sin compromisos.">
+<meta property="og:title" content="Contacto — Joltech">
+<meta property="og:description" content="Hablemos de tu proyecto IT. Escríbenos y te contactaremos con una propuesta clara y sin compromisos.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/joltech-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="Joltech - Inicio"><img src="assets/joltech-logo.png" alt="Joltech"></a>
+    <nav class="nav">
+      <a href="index.html" class="">Inicio</a>
+      <a href="servicios.html" class="">Servicios</a>
+      <a href="casos.html" class="">Casos de éxito</a>
+      <a href="nosotros.html" class="">Nosotros</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+    <a href="contacto.html" class="btn btn-brand nav-cta">Hablemos</a>
+  </div>
+</header>
+<section class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">Contacto</p>
+    <h1 style="margin-top:.75rem">Hablemos de tu próximo proyecto</h1>
+    <p class="lead">Cuéntanos sobre tus desafíos IT. Nuestro equipo te contactará con una propuesta clara enfocada en resultados.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container contact-grid">
+    <form class="form" onsubmit="event.preventDefault();alert('Gracias, te contactaremos pronto.');this.reset();">
+      <div class="field"><label for="name">Nombre</label><input id="name" required></div>
+      <div class="field"><label for="email">Correo corporativo</label><input id="email" type="email" required></div>
+      <div class="field"><label for="company">Empresa</label><input id="company"></div>
+      <div class="field"><label for="topic">Tema de interés</label>
+        <select id="topic"><option>Infraestructura Cloud</option><option>Ciberseguridad</option><option>Transformación Digital</option><option>Soporte IT</option><option>Otro</option></select>
+      </div>
+      <div class="field"><label for="msg">Mensaje</label><textarea id="msg" placeholder="Cuéntanos brevemente en qué podemos ayudarte..."></textarea></div>
+      <button class="btn btn-brand" type="submit">Enviar mensaje →</button>
+    </form>
+    <div class="contact-info">
+      <h2>Estamos aquí para ayudarte</h2>
+      <p class="muted" style="margin-top:1rem">Respondemos en menos de 24 horas hábiles. También puedes escribirnos directamente por los canales oficiales.</p>
+      <ul>
+        <li><span class="ico">✉</span><div><strong>Correo</strong><br>contacto@joltech.com</div></li>
+        <li><span class="ico">☎</span><div><strong>Teléfono</strong><br>+56 2 2345 6789</div></li>
+        <li><span class="ico">◉</span><div><strong>Oficina</strong><br>Santiago, Chile</div></li>
+        <li><span class="ico">⏱</span><div><strong>Horario</strong><br>Lun a Vie, 9:00 - 18:00</div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="assets/joltech-logo.png" alt="Joltech">
+        <p class="tag">Consultoría IT y servicios tecnológicos para impulsar la transformación digital de tu empresa con confianza y resultados medibles.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="casos.html">Casos de éxito</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><span class="ico">✉</span> contacto@joltech.com</li>
+          <li><span class="ico">☎</span> +56 2 2345 6789</li>
+          <li><span class="ico">◉</span> Santiago, Chile</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2026 Joltech. Todos los derechos reservados.</p>
+      <p>Soluciones IT para empresas que avanzan.</p>
+    </div>
+  </div>
+</footer>
+</body></html>
